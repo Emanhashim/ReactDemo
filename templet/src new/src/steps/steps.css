@@ -1,0 +1,193 @@
+
+
+
+.formx {
+  margin-top: 1vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-containerx {
+  margin-top: 1vw;
+  margin-left: 20vw;
+  gap: 3px;
+  width: 1320px;
+  height: 780px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-containerx .header {
+  flex: -80%;
+  display: grid;
+  place-items: center;
+
+
+}
+
+.fo-label {
+  display: -moz-inline-stack;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: rgb(12, 12, 12);
+  margin-left: 0.1vw;
+  
+  
+}
+
+
+.form-container .body {
+  flex: 60%;
+}
+
+.form-containerx .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-containerx .footer button {
+  border-radius: 7px;
+  width: 200px;
+  height: 40px;
+  background-color: #ffc107;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+  margin: 5px;
+  margin-top: 1vw;
+  box-shadow: 0 0 2px #080808;
+  
+}
+
+.sign-up-container {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin-left: 2vw;
+ 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   gap: 45vw;
+
+} 
+ label {
+margin-bottom: 5vw;
+}
+.sign-up-container #first {
+width: 1143px;
+margin-top: 20px;
+}
+.sign-up-container  #d3 , #d2,#d4 {
+  display: inline-block;
+  box-shadow: 0 0 3px #080808;
+
+  margin-top: 20px;
+}
+.sign-up-container  #d5 , #d6 {
+  display: inline-block;
+  box-shadow: 0 0 3px #080808;
+  width: 514px;
+  margin-top: 20px;
+  
+ 
+}
+
+.sign-up-container  #d7 , #d8 {
+ 
+  box-shadow: 0 0 3px #080808;
+  width: 514px;
+  margin-top: 10px;
+}
+.sign-up-container input {
+
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+
+  
+}
+
+.personal-info-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+/* PROGRESS BAR */
+.progressbar {
+  width: 400px;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 0.1px;
+  
+  margin-left: 20vw;
+}
+
+.progressbar div {
+  width: 33.3%;
+  height: 100%;
+  background-color: #ffc107;
+}
+
+.other-info-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.other-info-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+input {
+  border: 2px solid #ffc107;
+
+  display: block;
+  padding-left: 10px;
+
+  box-shadow: 0 0 2px #080808;
+  height: 40px;
+  width: 100%;
+
+  outline: none !important;
+  border-radius: 10px;
+
+}
+
+input:focus {
+  border: 3px solid rgb(98, 0, 255);
+}
